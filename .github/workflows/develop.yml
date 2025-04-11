@@ -1,11 +1,11 @@
-name: Deploy
+name: Develop
 
 on:
     push:
-      branches: [main]
+      branches: [develop]
     pull_request:
       branches:
-        - main
+        - develop
        
 jobs:
     ci:
